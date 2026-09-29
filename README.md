@@ -1,21 +1,27 @@
-# Social App
+# Route's Social App
 
-A responsive social-media frontend built with React and TypeScript. The application connects to the Route Posts API and provides authentication, posts, comments, profiles, notifications, and account settings.
+A responsive social media frontend built with React and TypeScript, featuring an API-driven feed, authentication, post interactions, comments, profiles, notifications, and account settings.
 
-## ✨ Features
+## Overview
+
+The project explores the frontend architecture required for an interactive social product. It combines reusable components, typed data models, feature-based service organization, and stateful UI flows.
+
+## Features
+
 - Authentication and registration
 - Paginated social feed
 - Create, edit, and delete posts
 - Image uploads
-- Like, share, and bookmark actions
+- Like, share, and bookmark interactions
 - Post details and comments
 - Profile and personal posts
 - Notifications with read/unread states
-- Password/account settings
-- Feature-based API service layer
-- Responsive UI
+- Account and password settings
+- Responsive layouts
+- API-driven data flows
 
-## 🛠️ Tech Stack
+## Technology
+
 - React
 - TypeScript
 - Vite
@@ -24,35 +30,22 @@ A responsive social-media frontend built with React and TypeScript. The applicat
 - Lucide React
 - Route Posts API
 
-## 🏗️ Architecture
-```text
-src/
-├── Components/
-├── Pages/
-├── services/
-│   ├── auth/
-│   ├── comments/
-│   ├── notifications/
-│   ├── posts/
-│   ├── profile/
-│   └── settings/
-├── types.ts
-└── utils.ts
-```
+## Architecture
 
-## 🚀 Getting Started
-```bash
-npm install
-npm run dev
-```
+The service layer separates API concerns from the presentation layer, while reusable UI components keep feature development consistent.
 
-Production build:
-```bash
-npm run build
-```
+## Development
 
-## 🎯 Portfolio Focus
-TypeScript, API-driven React architecture, reusable components, authentication flows, stateful UI, responsive design, and feature-based service organization.
+Install dependencies with `npm install`, then run `npm run dev`. Use `npm run build` for a production build.
 
-## 👤 Author
-Ahmed Khattab — Frontend Developer
+## Live Demo
+
+https://route-tau-one.vercel.app/
+
+## Portfolio Focus
+
+TypeScript, API integration, reusable React architecture, authentication flows, stateful UI, responsive design, and feature-based frontend organization.
+
+## Author
+
+**Ahmed Khattab** — Front-End Web Developer
