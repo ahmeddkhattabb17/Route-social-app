@@ -46,6 +46,10 @@ https://route-tau-one.vercel.app/
 
 TypeScript, API integration, reusable React architecture, authentication flows, stateful UI, responsive design, and feature-based frontend organization.
 
+## Academic Context
+
+This project was developed as part of a front-end development assignment at Route Academy. It was created for educational purposes to practice and apply frontend development concepts in a project-based setting.
+
 ## Author
 
 **Ahmed Khattab** — Front-End Web Developer
